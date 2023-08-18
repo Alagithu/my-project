@@ -1,0 +1,163 @@
+@font-face {
+    font-family: 'Geologica';
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/geologica/v1/oY1o8evIr7j9P3TN9YwNAdyjzUyDKkKdAGOJh1UlCDUIhAIdhCZOn1fLsig7jfvCCPHZckU8H3G11_z-_OZqD7bsc-kSAEWn.woff2) format('woff2');
+
+  }
+
+body{
+        
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F0F2F5;
+    padding-top: 130px;
+
+}
+.parent{
+    display: flex;
+    flex-direction: row;
+    font-family: Geologica,sans-serif !important;
+    font-family: 'Geologica';
+    
+    
+}
+.child1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    flex-grow: 8;
+}
+
+.child2{
+    min-width: 270px;
+    display: block;
+    flex-wrap: nowrap;
+    padding-right: 10%;
+    flex-shrink: 0;
+    flex-grow: 4;
+}
+form{display: block;
+    background-color: white;
+    border-radius: 6px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+h1{font-size: 60px;
+    font-family: Helvetica;
+    line-height: 16px;
+    font-style: inherit;
+    color:#1877f2;
+}
+
+
+
+#facebook{
+   
+    font-size: 24px;
+    }
+.connect{
+        background-color:#1877f2 ;
+        color: white;
+        border-radius: 5px;
+        border: 0px;
+        margin-top: 5px;
+        width: 320px;
+        height: 50px;
+        margin-left: 140px;
+        font-size: 20px;
+        margin-top: 20px;
+        }
+.creation{
+        background-color: #36A420;
+        color: white;
+        border-radius: 5px;
+        border: 0px;
+        width: 250px;
+        height: 50px;
+        margin-left: 170px;
+        font-size: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        }
+#para{
+        padding-top: 5px;
+        margin-left: 214px; }
+#aa{
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        }
+#bb{
+    margin: 0px;
+    font-weight: bold;
+    text-decoration: none;
+    color:black;
+    }
+#bb:hover{
+    text-decoration: underline;
+                }
+
+  .input{display: block;
+        background-color: white;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 120px;
+        margin-top: 10px;
+        border-radius: 6px;
+        width: 350px;
+        height: 50px;
+        border: 1px solid;
+                    
+                    }
+                
+ hr{
+     margin-top: 20px;
+     size: 1rem;
+     color: #F0F2F5;
+     }
+
+      @media only screen and (min-width: 320px) {
+        body {
+          background-color: black;
+          color: white;
+          flex-wrap: wrap;
+          
+        }
+        
+        .parent{
+            flex-wrap: wrap;
+        }
+      
+        #button{   background-color: white;
+            color: #1877f2;}
+      }
+
+      @media only screen and (min-width:481px) {
+        body {
+            background-color:darkblue;
+            color: white;
+          }
+      #button{
+        background-color: whitesmoke;
+          color: black;
+      } 
+      }
+
+      @media only screen and (min-width:1025px) {
+        body {
+            background-color:yellow;
+          }
+          #button{
+            background-color: violet;
+              color: red;
+          }
+      }
+      /*320px — 480px: Mobile devices.
+       481px — 768px: iPads, Tablets. 
+       769px — 1024px: Small screens, laptops.
+        1025px — 1200px: Desktops, large screens*/
